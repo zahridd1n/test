@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-06 04:10:24 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMDQ6MDI6NTMgIjsyNjM5"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMDQ6MTA6MjQgIjsxOzI3NDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son" type="Integer" array="False" size=""/>
+            <declare name="natija" type="Boolean" array="False" size=""/>
+            <output expression="&quot;Musbat sonni kiriting&quot;" newline="True"/>
+            <input variable="son"/>
+            <assign variable="natija" expression="(son&gt;9 and son&lt;100) and son%2==0"/>
+            <output expression="&quot;Berilgan son ikki xonali juft son :&quot;&amp;natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-27 02:25:46 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yNzsiMDI6MDI6MjEgIjsyNjQz"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yNzsiMDI6MDI6MjQgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMDktMjc7IjAxOjM3OjIyICI7aW50ZWdlcjIxLmZwcmc7Njg0OQ=="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yNzsiMDI6MjU6NDYgIjsxOzI3NjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, sekund, minut, soat" type="Integer" array="False" size=""/>
+            <declare name="Natija" type="String" array="False" size=""/>
+            <output expression="&quot;N sekundi kiriting&quot;" newline="True"/>
+            <input variable="N"/>
+            <assign variable="soat" expression="N/3600"/>
+            <assign variable="minut" expression="(N%3600)/60"/>
+            <assign variable="sekund" expression="(N%3600)%60"/>
+            <assign variable="natija" expression="&quot;Kun boshidan boshlab &quot;&amp;soat&amp;&quot; soat &quot;&amp; minut &amp; &quot; minut &quot;&amp;sekund&amp;&quot; sekund o'tdi&quot;"/>
+            <output expression="natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

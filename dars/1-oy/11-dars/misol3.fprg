@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-12 05:28:47 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMjsiMDU6MjU6MTIgIjsyNjM3"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMjsiMDU6MjU6MTkgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMTI7IjA1OjIwOjU5ICI7NTQ1NA=="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMjsiMDU6Mjg6NDcgIjsxOzI3NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, natija, i" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="natija" expression="1"/>
+            <for variable="i" start="a" end="b" direction="inc" step="1">
+                <assign variable="natija" expression="natija*i"/>
+            </for>
+            <output expression="natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-04 05:13:59 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDQ6NDY6MDcgIjsyNjQ0"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDU6MTM6NTkgIjsyOzI3NTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, kichigi" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a&gt;c and b&gt;c">
+                <then>
+                    <assign variable="kichigi" expression="c"/>
+                </then>
+                <else>
+                    <if expression="c&gt;a and b&gt;a">
+                        <then>
+                            <assign variable="kichigi" expression="a"/>
+                        </then>
+                        <else>
+                            <assign variable="kichigi" expression="b"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;kichik son:&quot;&amp;kichigi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

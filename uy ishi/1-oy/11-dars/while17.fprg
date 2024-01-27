@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-13 10:45:12 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMzsiMTA6MTI6NTEgIjsyNjMz"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMzsiMTA6NDU6MTIgIjsxOzI3NDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, m, butun" type="Integer" array="False" size=""/>
+            <declare name="i" type="Boolean" array="False" size=""/>
+            <output expression="&quot;n=&quot;" newline="True"/>
+            <input variable="n"/>
+            <output expression="&quot;m=&quot;" newline="True"/>
+            <input variable="m"/>
+            <assign variable="i" expression="true"/>
+            <assign variable="butun" expression="0"/>
+            <while expression="i and n&gt;=m">
+                <assign variable="n" expression="n-m"/>
+                <assign variable="butun" expression="butun+1"/>
+            </while>
+            <output expression="&quot;bo'linmaning butun qismi: &quot;&amp;butun&amp;&quot; qoldiq: &quot;&amp;n" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

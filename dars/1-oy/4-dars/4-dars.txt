@@ -1,0 +1,5 @@
+Chiziqli algoritimlar
+
+1) ma'lumot qabul qilish
+2) malumot xisob kitobi
+3) u ni ko'rsatish

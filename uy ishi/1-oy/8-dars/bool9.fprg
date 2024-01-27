@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-06 11:01:16 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMTA6NTE6NTkgIjsyNjQ2"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMTA6NTI6MTIgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDY7IjEwOjMzOjMyICI7Ym9vbDguZnByZzs2NDYw"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMTE6MDE6MTYgIjsxOzI3NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <declare name="toqson" type="Boolean" array="False" size=""/>
+            <output expression="&quot;A ni kiritng:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;B ni kiritng:&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="toqson" expression="a%2==1 or b%2==1"/>
+            <output expression="&quot;A va B sonlarining hech bo'lmaganda bittasi toq son: &quot;&amp;toqson" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

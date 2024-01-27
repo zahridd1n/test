@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-04 07:59:25 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDU6MTQ6MDAgIjsyNjMz"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDU6MTQ6MTQgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDQ7IjA0OjQ2OjA3ICI7aWYxMi5mcHJnOzYyOTE="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDc6NTk6MjUgIjs0OzI3NjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, orta" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a&gt;c and b&lt;c|| b&gt;c and  a&lt;c">
+                <then>
+                    <assign variable="orta" expression="c"/>
+                </then>
+                <else>
+                    <if expression="c&gt;a and b&lt;a">
+                        <then>
+                            <assign variable="orta" expression="a"/>
+                        </then>
+                        <else>
+                            <assign variable="orta" expression="b"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;o'rta son:&quot;&amp;orta" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

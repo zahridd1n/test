@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-03 05:28:03 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDU6Mjc6NDcgIjsyNjQ3"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDU6Mjc6NDkgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDM7IjA1OjA2OjQ0ICI7bWlzb2w0LmZwcmc7NjU5Mw=="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDU6Mjg6MDMgIjsxOzI3NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="juftoqligi" type="Boolean" array="False" size=""/>
+            <declare name="son" type="Real" array="False" size=""/>
+            <output expression="&quot;sonni kiriting&quot;" newline="True"/>
+            <input variable="son"/>
+            <assign variable="juftoqligi" expression="son%3==0"/>
+            <output expression="juftoqligi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

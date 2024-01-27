@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-12 05:04:05 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMjsiMDQ6NTc6MDQgIjsyNjQy"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMjsiMDU6MDQ6MDUgIjsxOzI3NDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son, a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;son kiriitng:&quot;" newline="True"/>
+            <input variable="son"/>
+            <assign variable="a" expression="son/100"/>
+            <assign variable="b" expression="son%10"/>
+            <if expression="a==b">
+                <then>
+                    <output expression="true" newline="True"/>
+                </then>
+                <else>
+                    <output expression="false" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

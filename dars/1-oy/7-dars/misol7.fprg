@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-03 09:02:28 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDU6NTU6NTAgIjsyNjQy"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDk6MDI6MjggIjsxOzI3NTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="username, usernameinput" type="String" array="False" size=""/>
+            <declare name="natija" type="Boolean" array="False" size=""/>
+            <assign variable="username" expression="&quot;Zaxridd1n&quot;"/>
+            <output expression="&quot;usernameni kiriting&quot;" newline="True"/>
+            <input variable="usernameinput"/>
+            <assign variable="natija" expression="username==usernameinput"/>
+            <output expression="natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

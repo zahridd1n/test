@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-26 06:12:32 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yNjsiMDU6MzY6MzYgIjsyNjU4"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yNjsiMDY6MTI6MzIgIjsyOzI3NTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ism, familya, natija" type="String" array="False" size=""/>
+            <declare name="yosh" type="Integer" array="False" size=""/>
+            <output expression="&quot;ismingizni kiriting&quot;" newline="True"/>
+            <input variable="ism"/>
+            <output expression="&quot;Familiyangizni kiritig&quot;" newline="True"/>
+            <input variable="familya"/>
+            <output expression="&quot;yoshingizni kiriting&quot;" newline="True"/>
+            <input variable="yosh"/>
+            <assign variable="natija" expression="&quot;Assalomu alekum xurmatli foydalanuvchi &quot;&amp; &quot;ismingiz:&quot; ism &amp;&quot;  &quot;&amp;familya&amp;&#13;&#10;&quot;  &quot; &amp; &quot;yoshingiz:&quot;&amp;yosh"/>
+            <output expression="natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

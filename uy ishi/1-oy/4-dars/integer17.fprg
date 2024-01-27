@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-27 09:14:04 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yNzsiMDk6MDc6MzYgIjsyNjYx"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yNzsiMDk6MTQ6MDQgIjsxOzI3NjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son, natija" type="Integer" array="False" size=""/>
+            <output expression="&quot;Sonni kiriting&quot;" newline="True"/>
+            <input variable="son"/>
+            <assign variable="natija" expression="(son%1000)/100"/>
+            <output expression="natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

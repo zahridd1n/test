@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-05 09:24:13 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNTsiMDg6NTk6MzUgIjsyNjU0"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNTsiMDg6NTk6NDYgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDU7IjA4OjU0OjI1ICI7Ym9vbDIuZnByZzs2NDg1"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNTsiMDk6MjQ6MTMgIjsxOzI3NTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <declare name="natija" type="Boolean" array="False" size=""/>
+            <output expression="&quot;A sonni kiriting:&quot;" newline="True"/>
+            <input variable="A"/>
+            <assign variable="natija" expression="a%2==0"/>
+            <output expression="&quot;A soni juft son: &quot;&amp;natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

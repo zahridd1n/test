@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-13 10:30:05 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMjsiMTA6MzA6MzQgIjsyNjMz"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMzsiMTA6MzA6MDUgIjsyOzI3NDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, a" type="Integer" array="False" size=""/>
+            <declare name="i" type="Boolean" array="False" size=""/>
+            <output expression="&quot; n soni kiriting:&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="a" expression="1"/>
+            <assign variable="i" expression="true"/>
+            <while expression="i">
+                <assign variable="a" expression="a*3"/>
+                <if expression="a&gt;=n">
+                    <then>
+                        <assign variable="i" expression="false"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <if expression="a==n">
+                <then>
+                    <output expression="&quot;3 ni darajasi&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;3-ning darajasi emas&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

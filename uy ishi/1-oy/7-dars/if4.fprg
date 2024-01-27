@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-03 11:34:25 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMTE6MTQ6MDQgIjsyNjMz"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMTE6MzQ6MjUgIjsxOzI3NDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, natija" type="Integer" array="False" size=""/>
+            <assign variable="natija" expression="0"/>
+            <output expression="&quot;1-soni kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;2-soni kiriting&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;3-soni kiriting&quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="a&gt;0">
+                <then>
+                    <assign variable="natija" expression="natija+1"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="b&gt;0">
+                <then>
+                    <assign variable="natija" expression="natija+1"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="c&gt;0">
+                <then>
+                    <assign variable="natija" expression="natija+1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Musbat sonlar: &quot;&amp;natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

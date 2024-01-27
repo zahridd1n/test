@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-05 05:33:55 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNTsiMDU6Mjk6NDQgIjsyNjQ4"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNTsiMDU6MzM6NTUgIjsxOzI3NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son" type="Integer" array="False" size=""/>
+            <declare name="natija" type="Boolean" array="False" size=""/>
+            <input variable="son"/>
+            <assign variable="natija" expression="son&gt;0 and son&lt;100"/>
+            <output expression="natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

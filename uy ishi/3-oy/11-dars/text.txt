@@ -1,0 +1,2 @@
+HTML veb sahifalarni yaratish uchun ishlatiladigan markaziy tildir. Bu til, matn, rasmlar, videolar, linklar va boshqa tarkibiy elementlarni 
+ saqlash va tuzatish uchun mo'ljallangan. Veb brauzerlar bu HTML kodi orqali sahifani tuzilgan holda ko'rsatishadi.

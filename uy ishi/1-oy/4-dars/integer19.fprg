@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-27 09:28:16 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yNzsiMDk6MjA6NDkgIjsyNjYw"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yNzsiMDk6Mjg6MTYgIjsxOzI3NzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, minut" type="Integer" array="False" size=""/>
+            <output expression="&quot;N sekundni kiriting:&quot;" newline="True"/>
+            <input variable="N"/>
+            <assign variable="minut" expression="N/60"/>
+            <output expression="minut" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

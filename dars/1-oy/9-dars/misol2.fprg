@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-07 06:06:38 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDU6NDc6MjkgIjsyNjUz"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDY6MDY6MzggIjsxOzI3NTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="counter, a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;a ni kiriting;&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b ni kiriting;&quot;" newline="True"/>
+            <input variable="b"/>
+            <for variable="counter" start="a" end="b" direction="inc" step="1">
+                <output expression="counter" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

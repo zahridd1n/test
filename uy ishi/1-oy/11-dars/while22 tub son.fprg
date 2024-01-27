@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-13 04:38:12 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMzsiMDQ6Mjg6MzQgIjsyNjQ0"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMzsiMDQ6Mzg6MTIgIjsyOzI3NTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, tub, a" type="Integer" array="False" size=""/>
+            <output expression="&quot;n sonni kiriting:&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="tub" expression="0"/>
+            <assign variable="a" expression="0"/>
+            <while expression="n&gt;1 and n&gt;=a">
+                <assign variable="a" expression="a+1"/>
+                <if expression="n%a==0">
+                    <then>
+                        <assign variable="tub" expression="tub+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <if expression="tub==2">
+                <then>
+                    <output expression="&quot;berilgan son tub&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;berilgan son tub emas&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

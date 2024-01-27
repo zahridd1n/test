@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-12 06:20:30 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMjsiMDU6MzA6NTAgIjsyNjM1"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMjsiMDY6MjA6MzAgIjsxOzI3NDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son, a, n, b" type="Integer" array="False" size=""/>
+            <input variable="son"/>
+            <assign variable="n" expression="0"/>
+            <for variable="a" start="2" end="son" direction="inc" step="1">
+                <if expression="son%a==0">
+                    <then>
+                        <output expression="a" newline="True"/>
+                        <assign variable="n" expression="n+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <if expression="n&gt;=2">
+                <then>
+                    <output expression="&quot;murakkab son&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;xato&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

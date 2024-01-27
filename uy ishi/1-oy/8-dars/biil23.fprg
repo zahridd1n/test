@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-06 07:24:47 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMDc6MTU6NDkgIjsyNjUx"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMDc6MTU6NTMgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDY7IjA3OjExOjIzICI7Ym9vbDIyLmZwcmc7NjUxNg=="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMDc6MjQ6NDcgIjsxOzI3NTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, birlar, onlar, yuzlar" type="Integer" array="False" size=""/>
+            <declare name="natija" type="Boolean" array="False" size=""/>
+            <output expression="&quot;3 xonali son kiriting:&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="birlar" expression="a%10"/>
+            <assign variable="onlar" expression="(a % 100)/10"/>
+            <assign variable="yuzlar" expression="a/100"/>
+            <assign variable="natija" expression="birlar==yuzlar"/>
+            <output expression="&quot;Kiritilgan sonni chapdan haam o'ngdan ham o'qiganda bir xil : &quot;&amp;natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

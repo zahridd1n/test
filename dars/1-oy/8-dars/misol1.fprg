@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-05 05:22:43 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNTsiMDU6MDE6MjEgIjsyNjMz"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNTsiMDU6MjI6NDMgIjsxOzI3NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, inp1, inp2" type="Integer" array="False" size=""/>
+            <declare name="res1, res2" type="Boolean" array="False" size=""/>
+            <assign variable="a" expression="10"/>
+            <assign variable="b" expression="20"/>
+            <assign variable="c" expression="50"/>
+            <assign variable="d" expression="50"/>
+            <output expression="a&amp;&quot;+&quot;&amp;b&amp;&quot;=?&quot;" newline="True"/>
+            <input variable="inp1"/>
+            <output expression="c&amp;&quot;+&quot;&amp;d&amp;&quot;=?&quot;" newline="True"/>
+            <input variable="inp2"/>
+            <assign variable="res1" expression="a+b == inp1"/>
+            <assign variable="res2" expression="c+d==inp2"/>
+            <output expression="res1 or res2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

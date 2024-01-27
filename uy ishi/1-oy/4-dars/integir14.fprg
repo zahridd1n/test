@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-26 10:28:06 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yNjsiMDg6MjY6MTEgIjsyNjUz"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yNjsiMTA6Mjg6MDYgIjsxOzI3NjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son, qoldiq" type="Integer" array="False" size=""/>
+            <declare name="natija" type="String" array="False" size=""/>
+            <output expression="&quot;soni kiriting&quot;" newline="True"/>
+            <input variable="son"/>
+            <assign variable="qoldiq" expression="son%10"/>
+            <assign variable="natija" expression="qoldiq&amp;((son-qoldiq)/10)"/>
+            <output expression="natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

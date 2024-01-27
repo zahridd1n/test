@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-08 10:09:47 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wODsiMDk6NTU6MjQgIjsyNjUy"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wODsiMDk6NTU6MzAgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDg7IjA5OjIwOjMyICI7Zm9yMTAuZnByZzs2NDE5"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wODsiMTA6MDk6NDcgIjsxOzI3NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, s, i" type="Real" array="False" size=""/>
+            <output expression="&quot;n ni kiriting:&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="s" expression="0"/>
+            <if expression="n&gt;0">
+                <then>
+                    <for variable="i" start="0" end="n" direction="inc" step="1">
+                        <assign variable="s" expression="s+(n+i)^2"/>
+                    </for>
+                    <output expression="&quot;S=&quot;&amp;s" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;xatolik n&gt;0 shartini tekshiring&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

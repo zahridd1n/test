@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-04 03:58:56 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDM6MjM6NTMgIjsyNjM5"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDM6NTg6NTYgIjszOzI3NjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;A ni kiriting:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;B ni kiriting:&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a!=b">
+                <then>
+                    <assign variable="a" expression="a+b"/>
+                    <assign variable="b" expression="a"/>
+                </then>
+                <else>
+                    <assign variable="a" expression="0"/>
+                    <assign variable="b" expression="0"/>
+                </else>
+            </if>
+            <output expression="&quot;A=&quot;&amp;a" newline="True"/>
+            <output expression="&quot;B=&quot;&amp;b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

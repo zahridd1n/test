@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-12 11:22:00 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMjsiMTE6MTI6MTQgIjsyNjMy"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMjsiMTE6MjI6MDAgIjsxOzI3MzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, k, a" type="Integer" array="False" size=""/>
+            <declare name="i" type="Boolean" array="False" size=""/>
+            <output expression="&quot;2 sonining darajasi:&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="i" expression="true"/>
+            <assign variable="k" expression="0"/>
+            <while expression="i">
+                <assign variable="n" expression="n/2"/>
+                <assign variable="k" expression="k+1"/>
+                <if expression="n==1">
+                    <then>
+                        <assign variable="i" expression="false"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <output expression="&quot;K=&quot;&amp;k" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

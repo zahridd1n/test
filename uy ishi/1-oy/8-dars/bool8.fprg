@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-06 10:51:53 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMTA6MzM6MzIgIjsyNjM3"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMTA6NTE6NTMgIjsxOzI3NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <declare name="toqsonlar" type="Boolean" array="False" size=""/>
+            <output expression="&quot;A ni kiritng:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;B ni kiritng:&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="toqsonlar" expression="a%2==1 and b%2==1"/>
+            <output expression="&quot;A va B sonlari toq sonlar: &quot;&amp;toqsonlar" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

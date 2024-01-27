@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-07 06:22:13 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDY6MDY6NDggIjsyNjUw"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDY6MDY6NTIgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDc7IjA1OjQ3OjI5ICI7bWlzb2wyLmZwcmc7NjU5OQ=="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDY6MjI6MTMgIjsxOzI3NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="counter, a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;a ni kiriting;&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b ni kiriting;&quot;" newline="True"/>
+            <input variable="b"/>
+            <for variable="counter" start="a" end="b" direction="inc" step="1">
+                <if expression="counter%2==0">
+                    <then>
+                        <output expression="counter" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

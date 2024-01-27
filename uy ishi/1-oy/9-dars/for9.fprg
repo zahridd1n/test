@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-07 09:57:47 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDk6NTQ6MTkgIjsyNjU0"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDk6NTQ6NDIgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDc7IjA5OjUxOjE5ICI7Zm9yOC5mcHJnOzYzODc="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDk6NTc6NDcgIjsxOzI3NjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, natija, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;a ni kiriting:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b ni kiriting:&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="natija" expression="0"/>
+            <if expression="a&lt;b">
+                <then>
+                    <for variable="i" start="a" end="b" direction="inc" step="1">
+                        <assign variable="natija" expression="natija+i^2"/>
+                    </for>
+                    <output expression="natija" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Xatolik! b , a dan katta bolsin&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

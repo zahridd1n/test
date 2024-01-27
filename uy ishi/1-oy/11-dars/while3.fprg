@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-12 10:30:05 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMjsiMTA6MjE6MjggIjsyNjM2"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMjsiMTA6MzA6MDUgIjsxOzI3Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, k, qoldiq, butun" type="Integer" array="False" size=""/>
+            <declare name="i" type="Boolean" array="False" size=""/>
+            <output expression="&quot;n sonini kiriting:&quot;" newline="True"/>
+            <input variable="n"/>
+            <output expression="&quot;k sonini kiriting:&quot;" newline="True"/>
+            <input variable="k"/>
+            <assign variable="i" expression="true"/>
+            <assign variable="butun" expression="0"/>
+            <while expression="i and n&gt;k">
+                <assign variable="n" expression="n-k"/>
+                <assign variable="butun" expression="butun+1"/>
+            </while>
+            <output expression="&quot;N ni K ga bo'lganda butun: &quot;&amp;butun&amp; &quot; qoldiq: &quot;&amp;n" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

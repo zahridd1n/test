@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-03 09:24:06 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDk6MjA6MzEgIjsyNjM3"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDk6MjA6MzQgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDM7IjA5OjE3OjAwICI7aWYyLmZwcmc7NjIzOQ=="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDk6MjQ6MDYgIjsxOzI3NTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Son" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting:&quot;" newline="True"/>
+            <input variable="son"/>
+            <if expression="son&gt;0">
+                <then>
+                    <assign variable="son" expression="son+1"/>
+                </then>
+                <else>
+                    <if expression="son=0">
+                        <then>
+                            <assign variable="son" expression="10"/>
+                        </then>
+                        <else>
+                            <assign variable="son" expression="son-2"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="son" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-28 09:09:36 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yODsiMDg6MTE6MDEgIjsyNjQ4"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yODsiMDk6MDk6MzYgIjsyOzI3NzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="umumiyT, grandT, kontraktT, kontraktnarxi, xodimsoni, maosh, qoshimchachiqim" type="Integer" array="False" size=""/>
+            <declare name="kirim, chiqim" type="Integer" array="False" size=""/>
+            <output expression="&quot;Umumiy talabalar sonini kiritng&quot;" newline="True"/>
+            <input variable="umumiyT"/>
+            <output expression="&quot;Grand talabalar soni&quot;" newline="True"/>
+            <input variable="grandT"/>
+            <output expression="&quot;Yillik kontrakt narxi&quot;" newline="True"/>
+            <input variable="kontraktnarxi"/>
+            <output expression="&quot;Xodimlar soni&quot;" newline="True"/>
+            <input variable="xodimsoni"/>
+            <output expression="&quot;Xodimlarning oylik maoshi&quot;" newline="True"/>
+            <input variable="maosh"/>
+            <output expression="&quot;Qo'shimcha chiqimlar&quot;" newline="True"/>
+            <input variable="qoshimchachiqim"/>
+            <assign variable="kontraktT" expression="umumiyT-grandT"/>
+            <assign variable="kirim" expression="kontraktnarxi*kontraktT"/>
+            <assign variable="chiqim" expression="xodimsoni*maosh*12+qoshimchachiqim"/>
+            <output expression="&quot;Universitetning yillik kirimi:&quot;&amp;kirim" newline="True"/>
+            <output expression="&quot;Universitetning yillik chiqimi:&quot;&amp;chiqim" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

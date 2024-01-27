@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-07 05:40:45 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDU6MTY6MzggIjsyNjQ5"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDU6NDA6NDUgIjsyOzI3NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, natija" type="Integer" array="False" size=""/>
+            <declare name="c" type="String" array="False" size=""/>
+            <output expression="&quot;a ni kiriting;&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b ni kiriting;&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;amalni kiriting;&quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="c==&quot;+&quot;">
+                <then>
+                    <assign variable="natija" expression="a+b"/>
+                </then>
+                <else>
+                    <if expression="c==&quot;-&quot;">
+                        <then>
+                            <assign variable="natija" expression="a-b"/>
+                        </then>
+                        <else>
+                            <if expression="c==&quot;*&quot;">
+                                <then>
+                                    <assign variable="natija" expression="a*b"/>
+                                </then>
+                                <else>
+                                    <assign variable="natija" expression="a/b"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

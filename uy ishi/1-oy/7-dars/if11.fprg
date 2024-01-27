@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-04 04:46:03 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDQ6MjA6MDQgIjsyNjMz"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDQ6NDY6MDMgIjsxOzI3NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, natija" type="Integer" array="False" size=""/>
+            <output expression="&quot;a ni kiriting:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b ni kiriting:&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a!=b">
+                <then>
+                    <if expression="a&gt;b">
+                        <then>
+                            <assign variable="natija" expression="a"/>
+                        </then>
+                        <else>
+                            <assign variable="natija" expression="b"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="natija" expression="0"/>
+                </else>
+            </if>
+            <output expression="&quot;A=&quot;&amp;natija &amp;&quot;  ;&quot;&amp;&quot;B=&quot;&amp;natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

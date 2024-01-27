@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-28 04:28:37 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yODsiMDQ6MDQ6NDYgIjsyNjU1"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yODsiMDQ6Mjg6MzcgIjsxOzI3Njk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son, son1, son2, son3, son4" type="Integer" array="False" size=""/>
+            <declare name="natija" type="String" array="False" size=""/>
+            <input variable="son"/>
+            <assign variable="son1" expression="son%10"/>
+            <assign variable="son2" expression="(son%100-son1)/10"/>
+            <assign variable="son3" expression="(son%1000)/100"/>
+            <assign variable="son4" expression="(son-son%1000)/1000"/>
+            <assign variable="natija" expression="son1&amp;son2&amp;son3&amp;son4"/>
+            <output expression="natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

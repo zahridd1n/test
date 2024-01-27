@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-04 09:04:07 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDg6MTg6NTEgIjsyNjQ2"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDg6MTk6NDEgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDQ7IjA3OjU5OjI3ICI7aWYxNC5mcHJnOzYzMTA="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDk6MDQ6MDcgIjsyOzI3NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, natija" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="(a&gt;b &amp;&amp; b&gt;c)||(c&gt;b &amp;&amp; b&gt;a)">
+                <then>
+                    <if expression="a&gt;c">
+                        <then>
+                            <assign variable="natija" expression="a+b"/>
+                        </then>
+                        <else>
+                            <assign variable="natija" expression="b+c"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="b&gt;a&amp;&amp;b&gt;c">
+                        <then>
+                            <if expression="a&gt;c">
+                                <then>
+                                    <assign variable="natija" expression="b+a"/>
+                                </then>
+                                <else>
+                                    <assign variable="natija" expression="b+c"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <assign variable="natija" expression="a+c"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

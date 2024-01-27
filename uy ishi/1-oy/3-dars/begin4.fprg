@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-23 09:14:57 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yMzsiMDk6MDg6MjggIjsyNjU5"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yMzsiMDk6MTQ6NTcgIjsxOzI3NjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="d, L" type="Real" array="False" size=""/>
+            <input variable="d"/>
+            <assign variable="L" expression="pi*d"/>
+            <output expression="L" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

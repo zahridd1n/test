@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-03 09:19:45 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDk6MTc6MDAgIjsyNjM5"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDk6MTc6NDUgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDM7IjA5OjAyOjMyICI7aWYxLmZwcmc7NjI0NQ=="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDk6MTk6NDUgIjsxOzI3NTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Son" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting:&quot;" newline="True"/>
+            <input variable="son"/>
+            <if expression="son&gt;0">
+                <then>
+                    <assign variable="son" expression="son+1"/>
+                </then>
+                <else>
+                    <assign variable="son" expression="son-2"/>
+                </else>
+            </if>
+            <output expression="son" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

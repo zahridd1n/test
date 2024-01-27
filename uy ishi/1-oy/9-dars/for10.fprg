@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-08 09:55:13 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wODsiMDk6MjA6MzIgIjsyNjQz"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wODsiMDk6NTU6MTMgIjsxOzI3NTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, s, i" type="Real" array="False" size=""/>
+            <output expression="&quot;n ni kiriting:&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="s" expression="0"/>
+            <if expression="n&gt;0">
+                <then>
+                    <for variable="i" start="1" end="n" direction="inc" step="1">
+                        <assign variable="s" expression="s+1/i"/>
+                    </for>
+                    <output expression="&quot;S=&quot;&amp;s" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;xatolik n&gt;0 shartini tekshiring&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

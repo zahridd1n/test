@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-10 05:37:16 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMDsiMDU6MDY6MjEgIjsyNjM0"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMDsiMDU6Mzc6MTYgIjs0OzI3NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="username, password, usernameinput, passwordinput" type="String" array="False" size=""/>
+            <declare name="booldata" type="Boolean" array="False" size=""/>
+            <assign variable="username" expression="&quot;zahridd1n&quot;"/>
+            <assign variable="password" expression="&quot;z1d2x3&quot;"/>
+            <assign variable="booldata" expression="true"/>
+            <while expression="booldata">
+                <output expression="&quot;username kiriting:&quot;" newline="True"/>
+                <input variable="usernameinput"/>
+                <output expression="&quot;Password kiriting:&quot;" newline="True"/>
+                <input variable="passwordinput"/>
+                <if expression="usernameinput==username and passwordinput==password">
+                    <then>
+                        <assign variable="booldata" expression="false"/>
+                        <output expression="&quot;dasturga xush kelibsiz&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-03 05:06:43 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDU6MDI6MjggIjsyNjM5"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDU6MDY6NDMgIjsxOzI3NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="confirm" type="Boolean" array="False" size=""/>
+            <declare name="age, year" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nechanchi yil tug'lgansiz?&quot;" newline="True"/>
+            <input variable="year"/>
+            <assign variable="age" expression="2023-year"/>
+            <assign variable="confirm" expression="age&gt;=18"/>
+            <output expression="confirm" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

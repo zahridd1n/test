@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-13 04:14:20 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMzsiMDI6Mzk6MjQgIjsyNjQz"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMzsiMDQ6MTQ6MjAgIjsyOzI3NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, natija, qoldiq" type="Integer" array="False" size=""/>
+            <output expression="&quot;n sonni kiriting;&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="natija" expression="0"/>
+            <while expression="n&gt;0">
+                <assign variable="qoldiq" expression="n%10"/>
+                <assign variable="natija" expression="natija*10+qoldiq"/>
+                <assign variable="n" expression="n/10"/>
+            </while>
+            <output expression="natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-06 03:17:57 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMDM6MDg6NDUgIjsyNjQ1"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMDM6MDg6NDcgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDY7IjAyOjQ3OjE1ICI7Ym9vbDExLmZwcmc7NjUyMA=="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMDM6MTc6NTcgIjsxOzI3NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <declare name="natija" type="Boolean" array="False" size=""/>
+            <output expression="&quot;A ni kiritng:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;B ni kiritng:&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;C ni kiriting: &quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="natija" expression="a&gt;0 and b&gt;0 and c&gt;0"/>
+            <output expression="&quot;A,B,C sonlarining har biri musbat: &quot;&amp;natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-03 05:55:49 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDU6Mjg6MDUgIjsyNjQy"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDU6Mjg6MDggIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDM7IjA1OjA2OjQ0ICI7bWlzb2w0LmZwcmc7NjU4OQ=="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMDU6NTU6NDkgIjszOzI3NjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="farq" type="Boolean" array="False" size=""/>
+            <declare name="yyil, qyil, yyosh, qyosh" type="Integer" array="False" size=""/>
+            <output expression="&quot;yigiti tug'lgan yili&quot;" newline="True"/>
+            <input variable="yyil"/>
+            <output expression="&quot;Qiz tug'lgan yili&quot;" newline="True"/>
+            <input variable="qyil"/>
+            <assign variable="yyosh" expression="2023-yyil"/>
+            <assign variable="qyosh" expression="2023-qyil"/>
+            <assign variable="farq" expression="yyosh&gt;=qyosh+3"/>
+            <output expression="farq" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

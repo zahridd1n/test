@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-04 08:18:50 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDc6NTk6MjcgIjsyNjUz"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDg6MDk6NDUgIjsyO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDQ7IjA1OjE0OjAwICI7aWYxMy5mcHJnOzYyOTM="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDg6MTg6NTAgIjsyOzI3NTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, kichik, katta" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a&gt;b and a&gt;c">
+                <then>
+                    <if expression="b&gt;c">
+                        <then>
+                            <assign variable="kichik" expression="c"/>
+                        </then>
+                        <else>
+                            <assign variable="kichik" expression="b"/>
+                        </else>
+                    </if>
+                    <assign variable="katta" expression="a"/>
+                </then>
+                <else>
+                    <if expression="b&gt;a and b&gt;c">
+                        <then>
+                            <if expression="a&gt;c">
+                                <then>
+                                    <assign variable="kichik" expression="c"/>
+                                </then>
+                                <else>
+                                    <assign variable="kichik" expression="a"/>
+                                </else>
+                            </if>
+                            <assign variable="katta" expression="b"/>
+                        </then>
+                        <else>
+                            <if expression="a&gt;b">
+                                <then>
+                                    <assign variable="kichik" expression="b"/>
+                                </then>
+                                <else>
+                                    <assign variable="kichik" expression="a"/>
+                                </else>
+                            </if>
+                            <assign variable="katta" expression="c"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;kichik son:&quot;&amp;kichik" newline="True"/>
+            <output expression="&quot;katta son:&quot;&amp;katta" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-28 06:14:16 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yODsiMDU6Mzk6MjIgIjsyNjU4"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yODsiMDY6MTQ6MTYgIjsyOzI3NjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Dkurs, summa, natija" type="Real" array="False" size=""/>
+            <output expression="&quot;100 dollar necha so'm&quot;" newline="True"/>
+            <input variable="Dkurs"/>
+            <output expression="&quot;Qancha sumani hisoblash kerak&quot;" newline="True"/>
+            <input variable="summa"/>
+            <assign variable="natija" expression="(Dkurs/100)*summa"/>
+            <output expression="natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

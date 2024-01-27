@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-13 04:24:01 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMzsiMDQ6MTQ6MjIgIjsyNjM2"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMzsiMDQ6MTQ6MjQgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMTM7IjAyOjM5OjI0ICI7d2hpbGUxOC5mcHJnOzY2MjY="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMzsiMDQ6MjQ6MDEgIjs0OzI3NDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, qoldiq" type="Integer" array="False" size=""/>
+            <declare name="natija" type="String" array="False" size=""/>
+            <declare name="i" type="Boolean" array="False" size=""/>
+            <output expression="&quot;n sonni kiriting;&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="i" expression="true"/>
+            <while expression="n&gt;0 and i">
+                <assign variable="qoldiq" expression="n%10"/>
+                <assign variable="n" expression="n/10"/>
+                <if expression="qoldiq==2">
+                    <then>
+                        <assign variable="natija" expression="&quot;2 raqami bor&quot;"/>
+                        <assign variable="i" expression="false"/>
+                    </then>
+                    <else>
+                        <assign variable="natija" expression="&quot;2 raqami yo'q&quot;"/>
+                    </else>
+                </if>
+            </while>
+            <output expression="natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

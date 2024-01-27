@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-23 09:31:55 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yMzsiMDk6MTg6MDQgIjsyNjU0"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yMzsiMDk6MzE6NTUgIjsxOzI3NjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, V, S" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="V" expression="a*b*c"/>
+            <output expression="V" newline="True"/>
+            <assign variable="S" expression="2*(a*b+b*c+c*a)"/>
+            <output expression="S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

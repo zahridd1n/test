@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-05 05:59:13 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNTsiMDU6MzM6NTggIjsyNjQ4"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNTsiMDU6NTk6MTMgIjsyOzI3NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="yyil, qyil, yyosh, qyosh" type="Integer" array="False" size=""/>
+            <output expression="&quot;yigit tug'lgan yilni kiriting:&quot;" newline="True"/>
+            <input variable="yyil"/>
+            <output expression="&quot;qiz tug'lgan yilni kiriting:&quot;" newline="True"/>
+            <input variable="qyil"/>
+            <assign variable="yyosh" expression="2023-yyil"/>
+            <assign variable="qyosh" expression="2023-qyil"/>
+            <if expression="yyosh&gt;=(qyosh+3) and qyosh&gt;16">
+                <then>
+                    <output expression="&quot;nikoxga ruxsat bor&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;xali yoshsiz&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

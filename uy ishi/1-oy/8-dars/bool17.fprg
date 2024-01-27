@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-06 04:13:39 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMDQ6MTA6NTIgIjsyNjM3"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMDQ6MTA6NTcgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDY7IjA0OjAyOjUzICI7Ym9vbDE2LmZwcmc7NjUxNQ=="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNjsiMDQ6MTM6MzkgIjsxOzI3NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son" type="Integer" array="False" size=""/>
+            <declare name="natija" type="Boolean" array="False" size=""/>
+            <output expression="&quot;Musbat sonni kiriting&quot;" newline="True"/>
+            <input variable="son"/>
+            <assign variable="natija" expression="(son&gt;99 and son&lt;1000) and son%2==1"/>
+            <output expression="&quot;Berilgan son uch xonali toq son :&quot;&amp;natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

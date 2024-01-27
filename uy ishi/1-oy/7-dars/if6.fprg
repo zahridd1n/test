@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-03 11:53:15 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMTE6NDc6NTkgIjsyNjQ5"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wMzsiMTE6NTM6MTUgIjsxOzI3NDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, kottasi" type="Integer" array="False" size=""/>
+            <output expression="&quot;1-sonni kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;2-sonni kiriting&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a&gt;b">
+                <then>
+                    <assign variable="kottasi" expression="a"/>
+                </then>
+                <else>
+                    <assign variable="kottasi" expression="b"/>
+                </else>
+            </if>
+            <output expression="&quot;Katta son:&quot;&amp;kottasi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

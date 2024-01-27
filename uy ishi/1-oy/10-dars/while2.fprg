@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-11 12:31:21 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMTsiMDk6MjM6MjIgIjsyNjM5"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMTsiMTI6MTY6MTIgIjsyO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMTE7IjEyOjA0OjMwICI7d2hpbGUyIGluIGZvci5mcHJnOzcxNjI="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMTsiMTI6MzE6MjEgIjs4OzI3NDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="raqam, n, tub" type="Integer" array="False" size=""/>
+            <declare name="f" type="Boolean" array="False" size=""/>
+            <output expression="&quot;raqamni kiriting:&quot;" newline="True"/>
+            <input variable="raqam"/>
+            <assign variable="n" expression="0"/>
+            <assign variable="tub" expression="0"/>
+            <assign variable="f" expression="true"/>
+            <while expression="f">
+                <assign variable="n" expression="n+1"/>
+                <if expression="raqam%n==0">
+                    <then>
+                        <assign variable="tub" expression="tub+1"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="raqam==n">
+                    <then>
+                        <assign variable="f" expression="false"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <if expression="tub==2">
+                <then>
+                    <output expression="&quot;berilgan son tub&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;berilhgan son tub emas&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

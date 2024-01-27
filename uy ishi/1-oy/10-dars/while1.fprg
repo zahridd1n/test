@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-10 09:28:36 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMDsiMDg6MjA6MDUgIjsyNjM1"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMDsiMDk6Mjg6MzYgIjsxOzI3NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kingru1, kingru2, sakrash1, sakrash2, natija1, natija2, n" type="Integer" array="False" size=""/>
+            <declare name="f" type="Boolean" array="False" size=""/>
+            <output expression="&quot;orqadagi kengruning turgan masofasi:&quot;" newline="True"/>
+            <input variable="kingru1"/>
+            <output expression="&quot;Oldindagi kengruning turgan masofasi:&quot;" newline="True"/>
+            <input variable="kingru2"/>
+            <output expression="&quot;orqadagi kengruning sakrash uzunligi:&quot;" newline="True"/>
+            <input variable="sakrash1"/>
+            <output expression="&quot;oldindaagi kengruning sakrash uzunligi:&quot;" newline="True"/>
+            <input variable="sakrash2"/>
+            <assign variable="n" expression="0"/>
+            <assign variable="f" expression="true"/>
+            <if expression="kingru1&lt;kingru2 and sakrash1&gt;sakrash2">
+                <then>
+                    <while expression="f">
+                        <assign variable="n" expression="n+1"/>
+                        <assign variable="natija1" expression="n*sakrash1+kingru1"/>
+                        <assign variable="natija2" expression="n*sakrash2+kingru2"/>
+                        <if expression="natija1&gt;=natija2">
+                            <then>
+                                <assign variable="f" expression="false"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </while>
+                    <output expression="&quot;orqadagi kengru &quot;&amp;n&amp;&quot; marta sakrasa oldindagi kengruga yetib oladi yoki o'tib ketadi&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;malumotlar xato orqadagi kengru oldindagi kengrudan uzunroq sakragani va oldindagi va orqadagi kengru masofalari tog'ri kiritilganini tekshiring&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

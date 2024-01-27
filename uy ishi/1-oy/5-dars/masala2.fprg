@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-28 09:48:46 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yODsiMDk6MDk6MzggIjsyNjY2"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yODsiMDk6NDg6NDYgIjsxOzI3NzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tannarx, soni, bojxona, sotilishi, chiqim, foyda" type="Integer" array="False" size=""/>
+            <output expression="&quot;Avtomabil tan narxi&quot;" newline="True"/>
+            <input variable="tannarx"/>
+            <output expression="&quot;Avtomabil soni&quot;" newline="True"/>
+            <input variable="soni"/>
+            <output expression="&quot;Bojxonaga to'lanadigan foiz&quot;" newline="True"/>
+            <input variable="bojxona"/>
+            <output expression="&quot;O'zbekistonda sotilish narxi&quot;" newline="True"/>
+            <input variable="sotilishi"/>
+            <assign variable="chiqim" expression="(tannarx+(tannarx*bojxona/100))*soni"/>
+            <assign variable="foyda" expression="sotilishi*soni-chiqim"/>
+            <output expression="&quot;Umumiy chiqim:&quot;&amp;chiqim" newline="True"/>
+            <output expression="&quot;Qolgan foyda:&quot;&amp;foyda" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-07 09:45:28 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDk6NDQ6MTQgIjsyNjQ4"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDk6NDQ6MTYgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDc7IjA5OjQxOjIxICI7Zm9yNS5mcHJnOzYzNzY="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDk6NDU6MjggIjszOzI3NjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="narx, i" type="Real" array="False" size=""/>
+            <output expression="&quot;1 kg kofert narxi:&quot;" newline="True"/>
+            <input variable="narx"/>
+            <for variable="i" start="1.2" end="2" direction="inc" step="0.2">
+                <output expression="i&amp;&quot; konfert narxi:&quot;&amp;narx*i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

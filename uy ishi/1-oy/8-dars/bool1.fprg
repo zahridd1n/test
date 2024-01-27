@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-05 08:54:21 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNTsiMDg6NDY6MzAgIjsyNjQ1"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNTsiMDg6NTQ6MjEgIjsxOzI3NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <declare name="natija" type="Boolean" array="False" size=""/>
+            <output expression="&quot;A sinni kiriting:&quot;" newline="True"/>
+            <input variable="A"/>
+            <assign variable="natija" expression="a&gt;0"/>
+            <output expression="&quot;A soni musbat:&quot;&amp;natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

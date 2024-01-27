@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-10 06:20:57 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMDsiMDY6MDc6MzIgIjsyNjM4"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMDsiMDY6MDc6MzcgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMTA7IjA1OjQ3OjM1ICI7NTQ1NA=="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMDsiMDY6MjA6NTcgIjsxOzI3NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="username, password, usernameinput, passwordinput" type="String" array="False" size=""/>
+            <declare name="xatourinish" type="Integer" array="False" size=""/>
+            <declare name="booldata" type="Boolean" array="False" size=""/>
+            <assign variable="username" expression="&quot;zahridd1n&quot;"/>
+            <assign variable="password" expression="&quot;z1d2x3&quot;"/>
+            <assign variable="booldata" expression="true"/>
+            <assign variable="xatourinish" expression="0"/>
+            <while expression="booldata">
+                <output expression="&quot;username kiriting:&quot;" newline="True"/>
+                <input variable="usernameinput"/>
+                <output expression="&quot;Password kiriting:&quot;" newline="True"/>
+                <input variable="passwordinput"/>
+                <if expression="usernameinput==username and passwordinput==password">
+                    <then>
+                        <assign variable="booldata" expression="false"/>
+                        <output expression="&quot;dasturga xush kelibsiz&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <assign variable="xatourinish" expression="xatourinish+1"/>
+                        <if expression="xatourinish&lt;=5">
+                            <then>
+                                <output expression="5-xatourinish &amp;&quot;qolgan urinishlar soni&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <assign variable="booldata" expression="false"/>
+                                <output expression="&quot;urinishlar  soni tugadi&quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

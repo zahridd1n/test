@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-04 03:09:26 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDI6NDg6NDcgIjsyNjQ4"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDM6MDk6MjYgIjsxOzI3NTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son1, son2, kattasi, kichigi" type="Integer" array="False" size=""/>
+            <output expression="&quot;1-sonni kiriting&quot;" newline="True"/>
+            <input variable="son1"/>
+            <output expression="&quot;2-sonni kiriting&quot;" newline="True"/>
+            <input variable="son2"/>
+            <if expression="son1&gt;son2">
+                <then>
+                    <output expression="&quot;kattasi: &quot;&amp;son1" newline="True"/>
+                    <output expression="&quot;kichigi: &quot;&amp;son2" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Kattasi: &quot;&amp;son2" newline="True"/>
+                    <output expression="&quot;kichigi: &quot;&amp;son1" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

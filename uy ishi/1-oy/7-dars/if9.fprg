@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-04 03:23:52 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDM6MDk6MzUgIjsyNjQz"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDM6MTQ6MDkgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDQ7IjAyOjQ4OjQ3ICI7aWY4LmZwcmc7NjI1NA=="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNDsiMDM6MjM6NTIgIjsyOzI3NDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;A ni kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;B ni kiriting&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="b&gt;a">
+                <then>
+                    <output expression="&quot;B son:&quot;&amp;b" newline="True"/>
+                    <output expression="&quot;A son:&quot;&amp;a" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;B son:&quot;&amp;a" newline="True"/>
+                    <output expression="&quot;A son:&quot;&amp;b" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

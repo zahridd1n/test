@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-07 09:04:23 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDk6MDQ6MTIgIjsyNjQy"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDk6MDQ6MTYgIjsxO3VzZXI7V0lOLUk3Mko5SEtTQUI4OzIwMjMtMTAtMDc7IjA4OjU0OjQ0ICI7Zm9yMi5mcHJnOzYzNzc="/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDk6MDQ6MjMgIjsxOzI3NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;a ni kiriting:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b ni kiriting:&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a&lt;b">
+                <then>
+                    <for variable="i" start="b-1" end="a+1" direction="dec" step="1">
+                        <output expression="i" newline="True"/>
+                    </for>
+                    <output expression="&quot;chiqarillgan sonlar soni:&quot;&amp;b-a-1" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;a b dan kichik bo'lsin&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

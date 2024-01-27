@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-27 01:56:10 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yNzsiMDE6Mzc6MjIgIjsyNjUx"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0wOS0yNzsiMDE6NTY6MTAgIjsxOzI3NTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, sekund, minut" type="Integer" array="False" size=""/>
+            <declare name="Natija" type="String" array="False" size=""/>
+            <output expression="&quot;N sekundi kiriting&quot;" newline="True"/>
+            <input variable="N"/>
+            <assign variable="minut" expression="N/60"/>
+            <assign variable="sekund" expression="N%60"/>
+            <assign variable="natija" expression="&quot;Kun boshidan boshlab &quot;&amp; minut &amp; &quot; minutu &quot;&amp;sekund&amp;&quot; sekund O'tdi&quot;"/>
+            <output expression="natija" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

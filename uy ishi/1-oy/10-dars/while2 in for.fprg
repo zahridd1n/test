@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-11 12:12:13 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMTsiMTI6MDQ6MzAgIjsyNjMx"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0xMTsiMTI6MTI6MTMgIjsxOzI3Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="raqam, tub, count" type="Integer" array="False" size=""/>
+            <output expression="&quot;Sonni kiritng:&quot;" newline="True"/>
+            <input variable="raqam"/>
+            <assign variable="tub" expression="0"/>
+            <for variable="count" start="1" end="raqam" direction="inc" step="1">
+                <if expression="raqam%count==0">
+                    <then>
+                        <assign variable="tub" expression="tub+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <if expression="tub==2">
+                <then>
+                    <output expression="&quot;berilgan son tub&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;berilhgan son tub emas&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-07 09:07:32 "/>
+        <attribute name="created" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDk6MDQ6MzYgIjsyNjQ4"/>
+        <attribute name="edited" value="dXNlcjtXSU4tSTcySjlIS1NBQjg7MjAyMy0xMC0wNzsiMDk6MDc6MzIgIjsxOzI3NTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="narx, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;1 kg kofert narxi:&quot;" newline="True"/>
+            <input variable="narx"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="i&amp;&quot; konfert narxi:&quot;&amp;narx*i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
